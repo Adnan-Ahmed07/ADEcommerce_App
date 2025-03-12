@@ -11,6 +11,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BF368201C30D4B83860BBB8E /* CormorantGaramond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9C27D87FF41F69EA43C83 /* CormorantGaramond-Medium.ttf */; };
+		1A6E5C414009423EA603F5EB /* CormorantGaramond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70B46D59247341B690C59EF1 /* CormorantGaramond-Regular.ttf */; };
+		3EB74C4E442D4BFD87204FA6 /* Tinos-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECF6D2711B574EF29BE9A7F5 /* Tinos-Bold.ttf */; };
+		6DFE559DF9C84901B193E617 /* Tinos-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93FD17D48BE54FC8A5A00279 /* Tinos-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AdnansEcommerce_app/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AdnansEcommerce_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9EF9C27D87FF41F69EA43C83 /* CormorantGaramond-Medium.ttf */ = {isa = PBXFileReference; name = "CormorantGaramond-Medium.ttf"; path = "../src/assets/fonts/CormorantGaramond-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70B46D59247341B690C59EF1 /* CormorantGaramond-Regular.ttf */ = {isa = PBXFileReference; name = "CormorantGaramond-Regular.ttf"; path = "../src/assets/fonts/CormorantGaramond-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECF6D2711B574EF29BE9A7F5 /* Tinos-Bold.ttf */ = {isa = PBXFileReference; name = "Tinos-Bold.ttf"; path = "../src/assets/fonts/Tinos-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93FD17D48BE54FC8A5A00279 /* Tinos-Regular.ttf */ = {isa = PBXFileReference; name = "Tinos-Regular.ttf"; path = "../src/assets/fonts/Tinos-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C61467AA05164518B9882F29 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +124,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		C61467AA05164518B9882F29 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				9EF9C27D87FF41F69EA43C83 /* CormorantGaramond-Medium.ttf */,
+				70B46D59247341B690C59EF1 /* CormorantGaramond-Regular.ttf */,
+				ECF6D2711B574EF29BE9A7F5 /* Tinos-Bold.ttf */,
+				93FD17D48BE54FC8A5A00279 /* Tinos-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +206,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				BF368201C30D4B83860BBB8E /* CormorantGaramond-Medium.ttf in Resources */,
+				1A6E5C414009423EA603F5EB /* CormorantGaramond-Regular.ttf in Resources */,
+				3EB74C4E442D4BFD87204FA6 /* Tinos-Bold.ttf in Resources */,
+				6DFE559DF9C84901B193E617 /* Tinos-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
